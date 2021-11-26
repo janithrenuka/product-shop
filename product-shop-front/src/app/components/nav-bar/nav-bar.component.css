@@ -1,0 +1,15 @@
+img {
+    margin-left: 10px;
+    width: 50px;
+}
+
+.logout {
+    justify-content: space-between;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.logout label {
+    margin-right: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,34 @@
+<app-nav-bar></app-nav-bar> 
+<div class="search-bar">
+    <div class="input-group">
+        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+        aria-describedby="search-addon" />
+        <button type="button" class="btn btn-outline-primary"><i class="pi pi-search"></i></button>
+    </div>
+</div>
+
+<div class="container card-group">
+    <div *ngFor="let phone of phones">
+        <div class="p-card">
+            <p-card header="{{phone.Name}}" subheader="{{phone.Price}}" [style]="{width: '250px'}" styleClass="p-card-shadow">
+                
+                <ng-template pTemplate="header">
+                    <img alt="Card" src="{{phone.Img}}">
+                </ng-template>
+
+                <div style="justify-content: center; text-align: center;">
+
+                    <ng-template [ngIf]="phone.Available" [ngIfElse]="elseBlock">
+                        <button pButton pRipple type="button" label="Available" class="p-button-rounded p-button-success" ></button>
+                    </ng-template>
+
+                    <ng-template #elseBlock>
+                        <button pButton pRipple type="button" label="Not Available" class="p-button-rounded p-button-danger"></button>
+                    </ng-template>
+
+                    <button pButton pRipple type="button" label="Info" (click)="showBasicDialog()" class="p-button-rounded p-button-info" style="margin-left: 5px;"></button>
+                </div>
+            </p-card>
+        </div>
+    </div>
+</div>

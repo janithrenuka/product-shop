@@ -1,0 +1,35 @@
+<div class="login_image">
+    <img src="../../../assets/images/login_img.jpg">
+</div>
+<div class="form">
+    <div class="form-content">
+        <h1>Login</h1>
+        <div class="p-grid p-fluid">
+            <div class="p-col-12 p-md-3">
+                <div class="p-inputgroup">
+                    <span class="p-inputgroup-addon"><i class="pi pi-at"></i></span>
+                    <span class="p-float-label">
+                        <textarea inputId="textarea" rows="1" style="resize: none;" cols="28" pInputTextarea required></textarea>
+                        <label for="textarea">Email</label>
+                    </span>         
+                </div>
+            </div>
+            <div class="p-col-12 p-md-3">
+                <div class="p-inputgroup">
+                    <span class="p-inputgroup-addon"><i class="pi pi-eye-slash"></i></span>
+                    <span class="p-float-label">
+                        <textarea type="password" inputId="textarea" rows="1" style="resize: none;" cols="28" pInputTextarea ></textarea>
+                        <label for="textarea">Password</label>
+                    </span>         
+                </div>
+            </div>
+        </div>
+    
+        <button [routerLink]="['/app-home']" style="width: 100px;" pButton pRipple type="button" label="Login" class="p-button-raised p-button-info p-button-rounded" icon="pi pi-arrow-right" iconPos="right"></button>
+
+        <div class="signup-link">
+            <h6>New Customer ? <a [routerLink]="['/app-signup']">Sign Up</a></h6>
+        </div>
+        
+    </div>
+</div>
