@@ -198,9 +198,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\My simple projects\\.NET with Angular\\Project\\product-shop\\product-shop-backend\\product-shop-backend\\product-shop-backend.csproj",
-      "projectName": "product-shop-backend",
-      "projectPath": "F:\\My simple projects\\.NET with Angular\\Project\\product-shop\\product-shop-backend\\product-shop-backend\\product-shop-backend.csproj",
+      "projectUniqueName": "F:\\My simple projects\\.NET with Angular\\Project\\product-shop\\product-shop-backend\\product-shop-backend\\product-shop-back.csproj",
+      "projectName": "product-shop-back",
+      "projectPath": "F:\\My simple projects\\.NET with Angular\\Project\\product-shop\\product-shop-backend\\product-shop-backend\\product-shop-back.csproj",
       "packagesPath": "C:\\Users\\Janith\\.nuget\\packages\\",
       "outputPath": "F:\\My simple projects\\.NET with Angular\\Project\\product-shop\\product-shop-backend\\product-shop-backend\\obj\\",
       "projectStyle": "PackageReference",
