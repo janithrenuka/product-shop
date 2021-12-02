@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\My simple projects\\.NET with Angular\\Project\\product-shop\\product-shop-backend\\product-shop-backend\\product-shop-back.csproj": {}
+    "D:\\project\\product-shop\\product-shop-back\\product-shop-backend\\product-shop-back.csproj": {}
   },
   "projects": {
-    "F:\\My simple projects\\.NET with Angular\\Project\\product-shop\\product-shop-backend\\product-shop-backend\\product-shop-back.csproj": {
+    "D:\\project\\product-shop\\product-shop-back\\product-shop-backend\\product-shop-back.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\My simple projects\\.NET with Angular\\Project\\product-shop\\product-shop-backend\\product-shop-backend\\product-shop-back.csproj",
+        "projectUniqueName": "D:\\project\\product-shop\\product-shop-back\\product-shop-backend\\product-shop-back.csproj",
         "projectName": "product-shop-back",
-        "projectPath": "F:\\My simple projects\\.NET with Angular\\Project\\product-shop\\product-shop-backend\\product-shop-backend\\product-shop-back.csproj",
-        "packagesPath": "C:\\Users\\Janith\\.nuget\\packages\\",
-        "outputPath": "F:\\My simple projects\\.NET with Angular\\Project\\product-shop\\product-shop-backend\\product-shop-backend\\obj\\",
+        "projectPath": "D:\\project\\product-shop\\product-shop-back\\product-shop-backend\\product-shop-back.csproj",
+        "packagesPath": "C:\\Users\\janithk\\.nuget\\packages\\",
+        "outputPath": "D:\\project\\product-shop\\product-shop-back\\product-shop-backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Janith\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\janithk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,12 +55,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.12, 5.0.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -69,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
