@@ -16,6 +16,7 @@ import {InputTextModule} from 'primeng/inputtext';
 import { FilterPipe } from 'src/pipes/filter.pipe';
 import {ScrollTopModule} from 'primeng/scrolltop';
 import {PasswordModule} from 'primeng/password';
+import {SidebarModule} from 'primeng/sidebar';
 
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
@@ -59,6 +60,7 @@ import { KidsWearComponent } from './components/wears/kids-wear/kids-wear.compon
     InputTextModule,
     ScrollTopModule,
     PasswordModule,
+    SidebarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
